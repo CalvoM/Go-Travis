@@ -15,7 +15,7 @@ func TestPower(t *testing.T) {
 	if actual != expected {
 		t.Fail()
 	}
-	actual = 10
+	actual = 81
 	expected = power(3, 4)
 	if actual != expected {
 		t.Fail()
